@@ -1,18 +1,23 @@
 # kemal-vue-template
 
-TODO: Write a description here
+Template for Kemal × Vue with webpack, supports hot-reload with webpack-dev-server.
+It enables you to build Kemal × Vue application fast with no-stress.
 
 ## Installation
 
-TODO: Write installation instructions here
-
-## Usage
-
-TODO: Write usage instructions here
+`git clone git@github.com:Kanezoh/kemal-vue-template.git`
+`cd kemal-vue-template`
+`yarn install`
+`shards install`
 
 ## Development
 
-TODO: Write development instructions here
+start server:
+`crystal run app/kemal-vue-template.cr`
+`yarn start`
+
+## Production
+build: `yarn build`
 
 ## Contributing
 
