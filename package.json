@@ -1,0 +1,16 @@
+{
+  "name": "vue-crystal",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Kanezoh <asfaltmanta114@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "webpack": "^5.30.0",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "scripts": {
+    "start": "webpack serve --mode development --hot",
+    "build": "webpack --mode production"
+  }
+}
