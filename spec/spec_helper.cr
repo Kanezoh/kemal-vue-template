@@ -1,2 +1,2 @@
 require "spec"
-require "../src/vue-crystal"
+require "../app/kemal-vue-template-vue"

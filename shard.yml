@@ -1,12 +1,12 @@
-name: vue-crystal
+name: kemal-vue-template
 version: 0.1.0
 
 authors:
   - Kanezoh <asfaltmanta114@gmail.com>
 
 targets:
-  vue-crystal:
-    main: src/vue-crystal.cr
+  kemal-vue-template:
+    main: app/kemal-vue-template.cr
 
 dependencies:
   kemal:
