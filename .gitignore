@@ -4,3 +4,4 @@
 /.shards/
 *.dwarf
 /node_modules
+/public/dest/
