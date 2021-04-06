@@ -5,19 +5,21 @@ It enables you to build Kemal × Vue application fast with no-stress.
 
 ## Installation
 
-`git clone git@github.com:Kanezoh/kemal-vue-template.git`
-`cd kemal-vue-template`
-`yarn install`
-`shards install`
+`git clone git@github.com:Kanezoh/kemal-vue-template.git`  
+`cd kemal-vue-template`  
+`yarn install`  
+`shards install`  
 
 ## Development
 
-start server:
-`crystal run app/kemal-vue-template.cr`
-`yarn start`
+start server:  
+`crystal run app/kemal-vue-template.cr`  
+`yarn start`  
 
 ## Production
 build: `yarn build`
+
+## 
 
 ## Contributing
 
