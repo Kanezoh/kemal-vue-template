@@ -1,4 +1,5 @@
 const path = require("path");
+const VueLoaderPlugin = require('vue-loader/lib/plugin');
 
 module.exports = {
   // entry point
@@ -19,5 +20,16 @@ module.exports = {
     headers: { "Access-Control-Allow-Origin": "*" },
     disableHostCheck: true,
     historyApiFallback: true,
-  }
+  },
+  module: {
+    rules: [
+      {
+        test: /\.vue$/,
+        loader: 'vue-loader'
+      },
+    ]
+  },
+  plugins: [
+    new VueLoaderPlugin()
+  ]
 };
