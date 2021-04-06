@@ -1,7 +1,7 @@
 # kemal-vue-template
 
-Template for Kemal × Vue with webpack, supports hot-reload with webpack-dev-server.
-It enables you to build Kemal × Vue application fast with no-stress.
+Template for Kemal × Vue with webpack, supports hot-reload with webpack-dev-server.  
+It enables you to build Kemal × Vue application fast, with no-stress.
 
 ## Installation
 
@@ -16,10 +16,11 @@ start server:
 `crystal run app/kemal-vue-template.cr`  
 `yarn start`  
 
+webpack-dev-server uses port 3035 and kemal uses port 3000 as default.
+Be sure to start both of processes for webpack-dev-server's hot-reload.
+
 ## Production
 build: `yarn build`
-
-## 
 
 ## Contributing
 
